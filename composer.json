@@ -1,0 +1,25 @@
+{
+    "name": "brego/feedbin-opml-export",
+    "description": "Convert Feedbin subscriptions to an OPML file, which can be published on your website",
+    "type": "library",
+    "keywords": ["OPML", "XML", "OPML export", "Feedbin", "Feedbin export", "RSS", "OPML publish", "PHP library"],
+    "homepage": "https://github.com/brego/feedbin-opml-export",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kamil Dzieliński",
+            "homepage": "https://brego.dev/",
+            "email": "contact@brego.dev",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brego\\FeedbinOpmlExport\\": "src/"
+        }
+    }
+}
